@@ -7,13 +7,23 @@
   },
   "keywords": [
     "serverless",
+    "serverless framework",
     "plugins",
-    "layer"
+    "layer",
+    "aws",
+    "amazon web services",
+    "lambda",
+    "nodejs",
+    "python"
   ],
   "author": "Chapman Cheng",
-  "license": "ISC",
+  "license": "MIT",
   "directories": {
     "lib": "lib"
   },
-  "description": "A serverless framework plugin, that auto wrap dependencies in aws layer directory structure"
+  "description": "A serverless framework plugin, that auto wrap dependencies in aws layer directory structure",
+  "repository": {
+    "url": "https://github.com/chapman-cc/serverless-auto-aws-dir",
+    "type": "github"
+  }
 }
