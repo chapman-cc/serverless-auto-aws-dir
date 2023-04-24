@@ -1,9 +1,10 @@
 {
   "name": "serverless-auto-aws-dir",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests/**/*.js"
+    "test": "mocha tests/**/*.js",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "serverless",
@@ -27,6 +28,7 @@
     "type": "github"
   },
   "devDependencies": {
+    "semantic-release": "^21.0.1",
     "chai": "^4.3.7",
     "mocha": "^10.2.0"
   }
