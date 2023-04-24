@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha tests/**/*.js",
     "semantic-release": "semantic-release"
   },
   "keywords": [
@@ -28,6 +28,8 @@
     "type": "github"
   },
   "devDependencies": {
-    "semantic-release": "^21.0.1"
+    "semantic-release": "^21.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
