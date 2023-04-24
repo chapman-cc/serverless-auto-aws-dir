@@ -28,8 +28,14 @@
     "type": "github"
   },
   "devDependencies": {
-    "semantic-release": "^21.0.1",
     "chai": "^4.3.7",
-    "mocha": "^10.2.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "mocha": "^10.2.0",
+    "semantic-release": "^21.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
