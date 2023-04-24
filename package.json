@@ -25,5 +25,9 @@
   "repository": {
     "url": "https://github.com/chapman-cc/serverless-auto-aws-dir",
     "type": "github"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
