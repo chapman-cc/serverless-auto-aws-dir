@@ -25,5 +25,8 @@
   "repository": {
     "url": "https://github.com/chapman-cc/serverless-auto-aws-dir",
     "type": "github"
+  },
+  "devDependencies": {
+    "semantic-release": "^21.0.1"
   }
 }
