@@ -28,6 +28,8 @@
     "type": "github"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "chai": "^4.3.7",
     "cz-conventional-changelog": "^3.3.0",
     "mocha": "^10.2.0",
