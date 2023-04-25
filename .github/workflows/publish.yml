@@ -25,6 +25,11 @@ jobs:
           node-version: 16
       - run: npm ci 
       - run: npx semantic-release
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: GH Release
+        uses: softprops/action-gh-release@v0.1.15
+        
   publish-npm:
     needs: build
     runs-on: ubuntu-18.04
@@ -36,6 +41,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npx semantic-release
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
